@@ -1,0 +1,36 @@
+{
+  "name": "eaglepay",
+  "version": "1.0.0",
+  "main": "node_modules/expo/AppEntry.js",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "web": "expo start --web"
+  },
+  "dependencies": {
+    "@expo/vector-icons": "^13.0.0",
+    "@react-native-async-storage/async-storage": "^1.18.2",
+    "@react-navigation/bottom-tabs": "^6.5.7",
+    "@react-navigation/native": "^6.1.6",
+    "@react-navigation/stack": "^6.3.16",
+    "cors": "^2.8.5",
+    "expo": "~48.0.15",
+    "expo-barcode-scanner": "~12.3.2",
+    "expo-contacts": "~12.0.1",
+    "expo-status-bar": "~1.4.4",
+    "express": "^4.18.2",
+    "http": "^0.0.1-security",
+    "nativewind": "^2.0.11",
+    "react": "18.2.0",
+    "react-native": "0.71.7",
+    "socket.io": "^4.6.2",
+    "socket.io-client": "^4.6.2",
+    "tailwindcss": "^3.3.2",
+    "url": "^0.11.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.20.0"
+  },
+  "private": true
+}
